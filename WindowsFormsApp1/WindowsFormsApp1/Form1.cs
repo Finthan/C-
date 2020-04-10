@@ -39,6 +39,40 @@ namespace WindowsFormsApp1
             TextForInput.Text += x.ToString();
         }
 
+        private void AddCharacter(int x)
+        {
+            if (x == 1)
+            {
+                TextForComputation.Text = NumberForComputation.ToString() + '+';
+            }
+            else if (x == 2)
+            {
+                TextForComputation.Text = NumberForComputation.ToString() + '-';
+            }
+            else if (x == 3)
+            {
+                TextForComputation.Text = NumberForComputation.ToString() + "×";
+            }
+            else if (x == 4)
+            {
+                TextForComputation.Text = NumberForComputation.ToString() + "÷";
+            }
+        }
+
+        private void Expression(int x)
+        {
+            Inputing = Convert.ToDouble(TextForInput.Text);
+            ArithmeticExpression = x;
+            if (NumberInputing == false)
+            {
+                NumberForComputation = Convert.ToDouble(TextForInput.Text);
+            }
+            AddCharacter(x);
+            TextForInput.Text = Inputing.ToString();
+            NewNumber = true;
+            NumberInputing = true;
+        }
+
         private void ButtonOne_Click(object sender, EventArgs e)
         {
             Comput(1);
@@ -129,58 +163,22 @@ namespace WindowsFormsApp1
 
         private void ButtonPlus_Click(object sender, EventArgs e)
         {
-            Inputing = Convert.ToDouble(TextForInput.Text);
-            if (NumberInputing == false)
-            {
-                NumberForComputation = Convert.ToDouble(TextForInput.Text);
-            }
-            TextForComputation.Text = NumberForComputation.ToString() + '+';
-            TextForInput.Text = Inputing.ToString();
-            NewNumber = true;
-            NumberInputing = true;
-            ArithmeticExpression = 1;
+            Expression(1);
         }
 
         private void ButtonMinus_Click(object sender, EventArgs e)
         {
-            Inputing = Convert.ToDouble(TextForInput.Text);
-            if (NumberInputing == false)
-            {
-                NumberForComputation = Convert.ToDouble(TextForInput.Text);
-            }
-            TextForComputation.Text = NumberForComputation.ToString() + '-';
-            TextForInput.Text = Inputing.ToString();
-            NewNumber = true;
-            NumberInputing = true;
-            ArithmeticExpression = 2;
+            Expression(2);
         }
 
         private void ButtonMultiply_Click(object sender, EventArgs e)
         {
-            Inputing = Convert.ToDouble(TextForInput.Text);
-            if (NumberInputing == false)
-            {
-                NumberForComputation = Convert.ToDouble(TextForInput.Text);
-            }
-            TextForComputation.Text = NumberForComputation.ToString() + "×";
-            TextForInput.Text = Inputing.ToString();
-            NewNumber = true;
-            NumberInputing = true;
-            ArithmeticExpression = 3;
+            Expression(3);
         }
 
         private void ButtonSplitUp_Click(object sender, EventArgs e)
         {
-            Inputing = Convert.ToDouble(TextForInput.Text);
-            if (NumberInputing == false)
-            {
-                NumberForComputation = Convert.ToDouble(TextForInput.Text);
-            }
-            TextForComputation.Text = NumberForComputation.ToString() + "÷";
-            TextForInput.Text = Inputing.ToString();
-            NewNumber = true;
-            NumberInputing = true;
-            ArithmeticExpression = 4;
+            Expression(4);
         }
 
         private void ButtonNumberMinusTheFirstDegree_Click(object sender, EventArgs e)
@@ -196,22 +194,7 @@ namespace WindowsFormsApp1
             {
                 NumberForComputation = 1 / NumberForComputation;
             }
-            if (ArithmeticExpression == 1)
-            {
-                TextForComputation.Text += '+';
-            }
-            else if (ArithmeticExpression == 2)
-            {
-                TextForComputation.Text += '-';
-            }
-            else if (ArithmeticExpression == 3)
-            {
-                TextForComputation.Text += '×';
-            }
-            else if (ArithmeticExpression == 4)
-            {
-                TextForComputation.Text += '÷';
-            }
+            AddCharacter(ArithmeticExpression);
             Inputing = Convert.ToDouble(TextForInput.Text);
             TextForInput.Text = Inputing.ToString();
             NewNumber = true;
@@ -224,22 +207,7 @@ namespace WindowsFormsApp1
             {
                 NumberForComputation = NumberForComputation * NumberForComputation;
                 TextForComputation.Text = NumberForComputation.ToString();
-                if (ArithmeticExpression == 1)
-                {
-                    TextForComputation.Text += '+';
-                }
-                else if (ArithmeticExpression == 2)
-                {
-                    TextForComputation.Text += '-';
-                }
-                else if (ArithmeticExpression == 3)
-                {
-                    TextForComputation.Text += '×';
-                }
-                else if (ArithmeticExpression == 4)
-                {
-                    TextForComputation.Text += '÷';
-                }
+                AddCharacter(ArithmeticExpression);
             }
             else
             {
@@ -259,22 +227,7 @@ namespace WindowsFormsApp1
             {
                 NumberForComputation = Convert.ToDouble(Math.Sqrt(NumberForComputation));
                 TextForComputation.Text = NumberForComputation.ToString();
-                if (ArithmeticExpression == 1)
-                {
-                    TextForComputation.Text += '+';
-                }
-                else if (ArithmeticExpression == 2)
-                {
-                    TextForComputation.Text += '-';
-                }
-                else if (ArithmeticExpression == 3)
-                {
-                    TextForComputation.Text += '×';
-                }
-                else if (ArithmeticExpression == 4)
-                {
-                    TextForComputation.Text += '÷';
-                }
+                AddCharacter(ArithmeticExpression);
             }
             else
             {
@@ -368,22 +321,7 @@ namespace WindowsFormsApp1
         {
             NumberForComputation *= -1;
             TextForComputation.Text = NumberForComputation.ToString();
-            if (ArithmeticExpression == 1)
-            {
-                TextForComputation.Text += '+';
-            }
-            else if (ArithmeticExpression == 2)
-            {
-                TextForComputation.Text += '-';
-            }
-            else if (ArithmeticExpression == 3)
-            {
-                TextForComputation.Text += '×';
-            }
-            else if (ArithmeticExpression == 4)
-            {
-                TextForComputation.Text += '÷';
-            }
+            AddCharacter(ArithmeticExpression);
         }
         private void ButtonBufferMinus_Click(object sender, EventArgs e)
         {
