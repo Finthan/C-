@@ -1,0 +1,17 @@
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\bin\Debug\netcoreapp3.1\PaintPassing.exe
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\bin\Debug\netcoreapp3.1\PaintPassing.deps.json
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\bin\Debug\netcoreapp3.1\PaintPassing.runtimeconfig.json
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\bin\Debug\netcoreapp3.1\PaintPassing.runtimeconfig.dev.json
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\bin\Debug\netcoreapp3.1\PaintPassing.dll
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\bin\Debug\netcoreapp3.1\PaintPassing.pdb
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\PaintPassing.csprojAssemblyReference.cache
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\PaintPassing_MarkupCompile.cache
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\PaintPassing_MarkupCompile.lref
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\PaintPassing.g.resources
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\PaintPassing.AssemblyInfoInputs.cache
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\PaintPassing.AssemblyInfo.cs
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\PaintPassing.dll
+C:\Users\mas\source\repos\PaintPassing\PaintPassing\obj\Debug\netcoreapp3.1\PaintPassing.pdb
