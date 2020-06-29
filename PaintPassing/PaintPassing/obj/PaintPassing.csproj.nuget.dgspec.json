@@ -37,6 +37,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "ColorPickerWPF": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,11 +1,155 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ColorPickerWPF/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "WriteableBitmapEx": "1.5.1"
+        },
+        "compile": {
+          "lib/net461/ColorPickerWPF.dll": {}
+        },
+        "runtime": {
+          "lib/net461/ColorPickerWPF.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/2.11.0": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Packaging": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "System.IO.Packaging/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.Packaging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {}
+        }
+      },
+      "WriteableBitmapEx/1.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WriteableBitmapEx.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WriteableBitmapEx.Wpf.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ColorPickerWPF/1.0.9": {
+      "sha512": "k/fuE8/V3w7sCN0JEi4FOshG7fjQ/zudR2a9KAOh8pjIvQyAWrdwk/bRb9SxyiKFLPGn/cog5Af3TlXXF92RDQ==",
+      "type": "package",
+      "path": "colorpickerwpf/1.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "colorpickerwpf.1.0.9.nupkg.sha512",
+        "colorpickerwpf.nuspec",
+        "lib/net461/ColorPickerWPF.dll"
+      ]
+    },
+    "DocumentFormat.OpenXml/2.11.0": {
+      "sha512": "q+BkHWQ8ZlZxpVcfY5IMnXPzD3jrIxUsgf+qwjUpDqyNPR4YvkEKf/o1CTQ0I+ivifuJnG1MJhoFVWEoGLfXtA==",
+      "type": "package",
+      "path": "documentformat.openxml/2.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CodeSignSummary-e257ad32-d5dd-4803-b795-592500c9fbdc.md",
+        "documentformat.openxml.2.11.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "icon.png",
+        "lib/net35/DocumentFormat.OpenXml.dll",
+        "lib/net35/DocumentFormat.OpenXml.xml",
+        "lib/net40/DocumentFormat.OpenXml.dll",
+        "lib/net40/DocumentFormat.OpenXml.xml",
+        "lib/net46/DocumentFormat.OpenXml.dll",
+        "lib/net46/DocumentFormat.OpenXml.xml",
+        "lib/netstandard1.3/DocumentFormat.OpenXml.dll",
+        "lib/netstandard1.3/DocumentFormat.OpenXml.xml",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.dll",
+        "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
+      ]
+    },
+    "System.IO.Packaging/4.7.0": {
+      "sha512": "9VV4KAbgRQZ79iEoG40KIeZy38O30oWwewScAST879+oki8g/Wa2HXZQgrhDDxQM4GkP1PnRJll05NMiVPbYAw==",
+      "type": "package",
+      "path": "system.io.packaging/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.IO.Packaging.dll",
+        "lib/net46/System.IO.Packaging.xml",
+        "lib/netstandard1.3/System.IO.Packaging.dll",
+        "lib/netstandard1.3/System.IO.Packaging.xml",
+        "lib/netstandard2.0/System.IO.Packaging.dll",
+        "lib/netstandard2.0/System.IO.Packaging.xml",
+        "ref/net46/System.IO.Packaging.dll",
+        "ref/net46/System.IO.Packaging.xml",
+        "ref/netstandard1.3/System.IO.Packaging.dll",
+        "ref/netstandard1.3/System.IO.Packaging.xml",
+        "ref/netstandard2.0/System.IO.Packaging.dll",
+        "ref/netstandard2.0/System.IO.Packaging.xml",
+        "system.io.packaging.4.7.0.nupkg.sha512",
+        "system.io.packaging.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "WriteableBitmapEx/1.5.1": {
+      "sha512": "7QoF7o6TNcQy3TVOVytgyaKXgLk9+kmC7ILzKRxk2+CVT3kCU+M5rXHLTAx4TOddSmtUHer1JTU2741Lia26NA==",
+      "type": "package",
+      "path": "writeablebitmapex/1.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/NetCore45/WriteableBitmapEx.WinRT.dll",
+        "lib/NetCore45/WriteableBitmapEx.WinRT.pdb",
+        "lib/NetCore45/WriteableBitmapEx.WinRT.xml",
+        "lib/WindowsPhone8/WriteableBitmapExWinPhone.XML",
+        "lib/WindowsPhone8/WriteableBitmapExWinPhone.dll",
+        "lib/WindowsPhone8/WriteableBitmapExWinPhone.pdb",
+        "lib/WindowsPhone8/WriteableBitmapExWinPhoneXnaDependant.XML",
+        "lib/WindowsPhone8/WriteableBitmapExWinPhoneXnaDependant.dll",
+        "lib/WindowsPhone8/WriteableBitmapExWinPhoneXnaDependant.pdb",
+        "lib/net40/WriteableBitmapEx.Wpf.XML",
+        "lib/net40/WriteableBitmapEx.Wpf.dll",
+        "lib/net40/WriteableBitmapEx.Wpf.pdb",
+        "lib/sl4-wp71/WriteableBitmapExWinPhone.XML",
+        "lib/sl4-wp71/WriteableBitmapExWinPhone.dll",
+        "lib/sl4-wp71/WriteableBitmapExWinPhone.pdb",
+        "lib/sl4-wp71/WriteableBitmapExWinPhoneXnaDependant.XML",
+        "lib/sl4-wp71/WriteableBitmapExWinPhoneXnaDependant.dll",
+        "lib/sl4-wp71/WriteableBitmapExWinPhoneXnaDependant.pdb",
+        "lib/sl4/WriteableBitmapEx.XML",
+        "lib/sl4/WriteableBitmapEx.dll",
+        "lib/sl4/WriteableBitmapEx.pdb",
+        "lib/wpa81/WriteableBitmapEx.WinRT.dll",
+        "lib/wpa81/WriteableBitmapEx.WinRT.pdb",
+        "lib/wpa81/WriteableBitmapEx.WinRT.xml",
+        "writeablebitmapex.1.5.1.nupkg.sha512",
+        "writeablebitmapex.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ColorPickerWPF >= 1.0.9",
+      "DocumentFormat.OpenXml >= 2.11.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mas\\.nuget\\packages\\": {}
@@ -43,6 +187,16 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "ColorPickerWPF": {
+            "target": "Package",
+            "version": "[1.0.9, )"
+          },
+          "DocumentFormat.OpenXml": {
+            "target": "Package",
+            "version": "[2.11.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -64,5 +218,27 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ColorPickerWPF 1.0.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "ColorPickerWPF",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"WriteableBitmapEx 1.5.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "WriteableBitmapEx",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
